@@ -46,6 +46,7 @@ Copy
 Edit
 npm run dev
 Server runs at http://localhost:5000 by default.
+```
 
 Core Features
 User registration, login, and role-based access control
