@@ -6,7 +6,7 @@ This is the backend API for Medicine-Sphere, a full-stack healthcare and medicin
 📁 **Frontend Repo:** [`medicine-sphere-client`](https://github.com/ArifMiah07/medicine-sphere-client)
 <!--📁 **Backend Repo:** [`medicine-sphere-backend`](https://github.com/ArifMiah07/medicine-sphere-backend)-->
 
-(This project is mainly a group project)
+(This project was mainly a group project)
 
 🌐 **Live Site:** [medi-sphere.vercel.app](https://medi-sphere-five.vercel.app/)  
 📁 **Frontend Repo:** [`medi-sphere-client`](https://github.com/Faey2023/medi-sphere)
