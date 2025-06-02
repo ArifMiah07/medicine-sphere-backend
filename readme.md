@@ -2,21 +2,41 @@
 
 This is the backend API for Medicine-Sphere, a full-stack healthcare and medicine management platform. It handles user authentication, medicine data, prescriptions, orders, and admin operations with a secure and scalable Node.js + TypeScript architecture.
 
-Live Frontend: https://medicine-sphere.vercel.app  
-Frontend Repo: https://github.com/ArifMiah07/medicine-sphere-client
+🌐 **Live Site:** [medicine-sphere.vercel.app](medi-sphere-one.vercel.app/)  
+📁 **Frontend Repo:** [`medicine-sphere-client`](https://github.com/ArifMiah07/medicine-sphere-client)
+<!--📁 **Backend Repo:** [`medicine-sphere-backend`](https://github.com/ArifMiah07/medicine-sphere-backend)-->
 
----
+(This project is mainly a group project)
+
+🌐 **Live Site:** [medi-sphere.vercel.app](https://medi-sphere-five.vercel.app/)  
+📁 **Frontend Repo:** [`medi-sphere-client`](https://github.com/Faey2023/medi-sphere)
+📁 **Backend Repo:** [`medi-sphere-backend`](https://github.com/farrdin/medi-sphere-backend)
+
 
 ## Tech Stack
 
-- Language: TypeScript  
-- Runtime: Node.js with Express.js  
-- Database: MongoDB using Mongoose ODM  
-- Authentication: JWT (JSON Web Token)  
-- Security: Helmet, CORS, Rate Limiting, Input Sanitization  
-- Cloudinary: For image and prescription uploads  
-- Payment: SSLCommerz Integration  
-- File Structure: MVC (Model-View-Controller) pattern
+- **Language:** TypeScript
+- **Runtime:** Node.js with Express.js
+- **Database:** MongoDB using Mongoose ODM
+- **Authentication:** JWT (JSON Web Token)
+- **Security:** Helmet, CORS, Rate Limiting, Input Sanitization
+- **Image Storage:** Cloudinary for image and prescription uploads
+- **Payment Processing:** SSLCommerz Integration
+- **Architecture:** MVC (Model-View-Controller) pattern
+
+---
+
+## Core Features
+
+- **User Management:** User registration, login, and role-based access control
+- **Authentication:** Secure JWT authentication middleware
+- **Medicine Management:** Full CRUD for medicines with advanced filters
+- **Order System:** Order creation, history tracking, and payment status
+- **Prescription System:** Prescription uploads and verification system (via Cloudinary)
+- **Admin Dashboard:** Admin tools for managing medicines, users, and orders
+- **Payment Integration:** SSLCommerz integration for payment processing
+- **Data Validation:** Error handling and validation with express-validator or Zod
+
 ---
 
 ## Getting Started
@@ -26,41 +46,29 @@ Frontend Repo: https://github.com/ArifMiah07/medicine-sphere-client
 ```bash
 git clone https://github.com/ArifMiah07/medicine-sphere-backend
 cd medicine-sphere-backend
-2. Install dependencies
-bash
-Copy
-Edit
-npm install
-3. Set up environment variables
-Create a .env file based on .env.example:
-
-bash
-Copy
-Edit
-cp .env.example .env
-Fill in your MongoDB URI, JWT secrets, Cloudinary credentials, and SSLCommerz keys.
-
-4. Run the development server
-bash
-Copy
-Edit
-npm run dev
-Server runs at http://localhost:5000 by default.
 ```
 
-Core Features
-User registration, login, and role-based access control
+### 2. Install dependencies
 
-Secure JWT authentication middleware
+```bash
+npm install
+```
 
-Full CRUD for medicines with advanced filters
+### 3. Set up environment variables
 
-Order creation, history tracking, and payment status
+Create a `.env` file based on `.env.example`:
 
-Prescription uploads and verification system (via Cloudinary)
+```bash
+cp .env.example .env
+```
 
-Admin tools for managing medicines, users, and orders
+Fill in your MongoDB URI, JWT secrets, Cloudinary credentials, and SSLCommerz keys.
 
-SSLCommerz integration for payment processing
+### 4. Run the development server
 
-Error handling and validation with express-validator or Zod
+```bash
+npm run dev
+```
+
+Server runs at `http://localhost:5000` by default.
+
